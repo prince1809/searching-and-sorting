@@ -17,8 +17,18 @@ public class Main {
         }
         */
 
+        /*
         BinarySearch bs = new BinarySearch();
         int result = bs.recursiveSearch(arr,0,n-1,x);
+        if(result == -1){
+            System.out.println("Element Not Present");
+        }else {
+            System.out.println("Element found at "+ result);
+        }
+        */
+
+        BinarySearch bs = new BinarySearch();
+        int result = bs.iterativeSearch(arr,0,n-1,x);
         if(result == -1){
             System.out.println("Element Not Present");
         }else {
